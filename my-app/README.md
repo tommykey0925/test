@@ -37,3 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 `yarn add @prisma/client && yarn add prisma && yarn add -D @cloudflare/next-on-pages`
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout <適当なパス.key> -out <適当なパス.crt>
